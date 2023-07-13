@@ -1,0 +1,161 @@
+*
+{
+    font-family: "Poppins", sans-serif;
+}
+body
+{
+background-color: rgb(19, 19, 19);
+color: rgb(207, 206, 206);
+}
+.header
+{
+    color: rgb(19, 19, 19, 0.6);
+}
+.logo
+{
+width: 50px;
+margin-left: 100px;
+margin-bottom: -20px;
+}
+
+.calendarLook
+{
+    width: 90%;
+    max-width: 448px;
+    background: linear-gradient(167deg,#71a9e0, #471c58);
+    color: #fff;
+    margin: 100px auto 0;
+    border-radius: 20px;
+    padding: 20px 35px;
+    text-align: left;
+    padding-bottom: 135px;
+}
+.tableContent
+{
+    margin-right: 24px;
+    background-color: rgba(155, 192, 240, 0.35);
+    color:rgb(19, 19, 19);
+    font-weight: 550;
+    text-align: right;
+}
+.tableContent [work_hours]
+{
+    background-color: white;
+}
+.calendarLow
+{
+    width: 92.5%;
+    padding: 5px;
+    background-color: rgba(155, 192, 240, 0.35);
+    color:rgb(19, 19, 19);
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    
+}
+.registerBox
+{
+    border-radius: 5px;
+    width: 90%;
+    padding: 5px;
+    margin-top: 10px;
+    background-color: rgba(255, 255, 255, 0.1)
+}
+.registerHeader
+{
+    margin-top: 3px;
+    margin-bottom: 5px;
+    font-weight: 1000;
+    color: rgb(19, 19, 19, 0.65);
+}
+.dateStyle [type]
+{
+    border-radius: 10px;
+    padding: 5px;  
+    border: 1;
+    outline: 1;
+    background-color: rgba(155, 192, 240, 0.35);
+    color:rgb(19, 19, 19);
+    font-weight: 550;
+    margin-bottom: 2px;
+}
+::-webkit-calendar-picker-indicator
+{
+    border-radius: 5px;
+    opacity: 0.9;
+    cursor: pointer;
+    background-color: #0b80f5;
+}
+.inputStyle input
+{
+    border-radius: 10px;   
+    padding: 5px;
+    border: 1;
+    outline: 1;
+    min-width: 105px;
+    padding-right: 15px;
+    color:rgb(19, 19, 19);
+    background-color: rgba(155, 192, 240, 0.35);
+    margin-bottom: 2px;
+}
+.inputStyle input::placeholder
+{
+    color:rgb(19, 19, 19);
+    font-weight: 550;
+}
+.inputStyle input[type="number"]::-webkit-inner-spin-button
+{
+    cursor: pointer;
+    margin-right: -9px;
+}
+.submitStyle
+{
+    color:rgb(19, 19, 19);
+    cursor: pointer;
+    
+}
+.submitStyle input
+{
+    border-radius: 10px;   
+    padding: 5px;
+    border: 0;
+    outline: 0;
+    min-width: 105px;
+    padding-right: 10px;
+    background-color: #0b80f5;
+    color: rgb(247, 247, 247);
+    margin-bottom: 5px;
+    font-weight: 800;
+    font-size: small;
+    cursor: pointer;
+}
+.adminPanel
+{
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    margin-right: -60px;
+    padding-left: -120px;
+    margin-top: 0px;
+    margin-left: 0px;
+    border-radius: 5px;    
+}
+.adminPanel input
+{
+    border-radius: 10px;   
+    padding: 5px;
+    border: 1;
+    outline: 1;
+    padding-right: 15px;
+    color:rgb(19, 19, 19);
+    background-color: rgba(155, 192, 240, 0.4);
+    margin-top: 5px;
+    text-align: left;
+}
+
+
+
+
+
+
+
+
+

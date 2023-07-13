@@ -1,0 +1,161 @@
+*
+{
+    font-family: "Poppins", sans-serif;
+}
+body
+{
+   background-color: rgb(19, 19, 19);
+   color:rgb(255, 247, 247, 0.4)
+}
+.card
+{
+    width: 90%;
+    max-width: 470px;
+    background: linear-gradient(167deg,#71a9e0, #471c58);
+    color: rgb(19, 19, 19);
+    margin: 100px auto 0;
+    border-radius: 20px;
+    padding: 40px 35px;
+    text-align: center;
+}
+.container
+{
+    margin-left: -20px;
+    margin-right: 50px;
+    border-radius: 5px;
+    color: rgb(19, 19, 19, 0.6);
+}
+.container .containerHeader
+{
+    margin-left: 50px;
+}
+.userName
+{
+    color: #6e2c88;
+    margin-left: 70px;
+    margin-top: -20px;
+}
+.logo
+{
+    width: 50px;
+    margin-left: 270px;
+    margin-bottom: -20px;
+    margin-top:-40px;
+}
+a
+{
+    text-decoration: none;
+}
+.welcome
+{
+    font-weight: 550;
+    color: rgba(121, 1, 111, 0.3);
+}
+.logout
+{
+    font-weight: 550;
+    color: rgb(255, 247, 247);
+    background-color: #ac0101;
+    border-radius: 5px;
+    padding: 5px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.main
+{
+    font-weight: 550;
+    background: rgba(121, 1, 111, 0.3);
+    color: rgb(255, 247, 247);
+    border-radius: 5px;
+    padding: 5px;
+}
+.passwordChange
+{
+    font-weight: 700;
+    border-radius: 5px;
+    padding: 10px;
+    margin-left: 100px;
+    margin-right: 100px;
+    background-color: rgba(155, 192, 240, 0.35);
+
+}
+.passwordChange p
+{
+    margin-bottom: -1px;
+    margin-left: -70px;
+}
+.email
+{
+    border-radius: 5px;
+    border: 1;
+    outline: 1;
+    padding: 2px;
+    margin-bottom: 2px;
+    background-color: rgb(255, 247, 247, 0.3);
+}
+.email::placeholder
+{
+    color: rgb(19, 19, 19, 0.45);
+    font-weight: 550;
+}
+.oldPassword
+{
+    border-radius: 5px;
+    border: 1;
+    outline: 1;
+    padding: 2px;
+    margin-bottom: 2px;
+    background-color: rgb(255, 247, 247, 0.3);
+}
+.oldPassword::placeholder
+{
+    color: rgb(19, 19, 19, 0.45);
+    font-weight: 700;
+}
+.newPassword
+{
+    border-radius: 5px;
+    border: 1;
+    outline: 1;
+    padding: 2px;
+    margin-bottom: 2px;
+    background-color: rgb(255, 247, 247, 0.3);
+}
+.newPassword::placeholder
+{
+    color: rgb(19, 19, 19, 0.45);
+    font-weight: 550;
+}
+.button
+{
+    border-radius: 5px;
+    border: 0;
+    outline: 0;
+    margin-top: 5px;
+    padding: 7px;
+    padding-left: 25px;
+    padding-right: 25px;
+    background-color: #0b80f5;
+    color: rgb(255, 247, 247);
+    font-weight: 550;
+    font-size: medium;
+    cursor: pointer;
+}
+.registeredHours
+{
+    margin-left: 110px;
+    margin-right: 110px;
+    font-weight: 550;
+    font-size: large;
+    margin-bottom: 5px;
+    color: rgb(19, 19, 19, 0.7)
+}
+.lowerPanel
+{
+    margin-left: 117px;
+    margin-right: 120px;
+    font-size: smaller;
+}
+
+
+
