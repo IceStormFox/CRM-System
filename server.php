@@ -50,12 +50,12 @@ else{
     $mail->isSMTP();
     $mail->Host = 'smtp.gmail.com';
     $mail->SMTPAuth = true;
-    $mail->Username = 'testowy20230609@gmail.com';
-    $mail->Password = 'utwruwrfgsukljzb';
+    $mail->Username = 'testowy@gmail.com';
+    $mail->Password = 'password';
     $mail->SMTPSecure = 'tls';
     $mail->Port = '587';
     
-    $mail->setFrom('testowy20230609@gmail.com', 'Rejestracja');
+    $mail->setFrom('testowy@gmail.com', 'Rejestracja');
     $mail->addAddress("{$email}");
 
     $mail->Subject = 'Aktywacja konta';
